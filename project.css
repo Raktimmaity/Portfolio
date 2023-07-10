@@ -87,6 +87,12 @@ nav li{
 nav li a{
   text-decoration: none;
   color: #ffffff;
+  padding: 5px;
+  transition: all .2s;
+}
+
+nav li a:hover{
+  border-bottom: 5px solid white;
 }
 .project-title{
   text-align: center;
@@ -293,4 +299,62 @@ nav li a{
   margin-top: 80px;
   height: 80vh;
 }
+}
+
+.pagination{
+  text-align: center;
+  margin: 30px 30px 60px;
+  user-select: none;
+}
+
+.pagination li{
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 45px;
+}
+
+ .next-page, .previous-page{
+  background: #0AB1CE;
+  width: 80px;
+  border-radius: 45px;
+  transition: .3s ease;
+}
+
+.previous-page:hover{
+  transform: translateX(-5px);
+}
+
+.next-page:hover{
+  transform: translateX(5px);
+}
+
+.current-page, .dots{
+  background: #ccc;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active{
+  background: #0AB1CE;
+}
+
+.disable{
+  background: #ccc;
+}
+
+.page-item{
+  color: white;
+  transition: .2s ease;
+}
+
+.page-item:hover{
+  transform: translateY(-5px);
 }
