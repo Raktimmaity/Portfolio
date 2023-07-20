@@ -580,6 +580,7 @@ ul li a:hover {
     border-radius: 0.4rem;
     background: transparent;
     font-family: 'Poppins', sans-serif;
+    /* transition: .2s; */
 }
 
 .buttons a,
@@ -588,9 +589,10 @@ ul li a:hover {
 }
 
 .btn:hover {
-    color: #1f1f38;
+    color: #fff;
     border-color: #fff;
-    background-color: #fff;
+    background: #00a0e4;
+    transform: translateY(-5px);
 }
 
 .live {
@@ -598,5 +600,6 @@ ul li a:hover {
     background-color: #4db5ff;
 }
 
-
-
+/* input, textarea{
+    outline: none;
+} */
