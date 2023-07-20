@@ -265,8 +265,6 @@ header{
       align-items: center;
       padding: 30px 10%;
       background-image: linear-gradient(to right, #963fb7, #d7038d, #f40054);
-      position: fixed;
-      z-index: 1;
     }
   .cont{
     display: flex;
