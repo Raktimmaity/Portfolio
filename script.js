@@ -7,3 +7,8 @@ contact.addEventListener('submit', function (e) {
     e.preventDefault();
     alert(`Sorry Request cannot be accepted due to some technical errors`);
 })
+
+let loader = document.getElementById("loader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
