@@ -436,7 +436,7 @@ ul li a:hover {
     background-color: #4db5ff;
     color: #151527;
     padding: 9px;
-    border-radius: 9px;
+    border-radius: 50%;
     width: 35px;
     height: 35px;
     position: fixed;
@@ -448,6 +448,7 @@ ul li a:hover {
     align-items: center;
     cursor: pointer;
     z-index: 2000;
+    border: 2px solid white;
 }
 
 
